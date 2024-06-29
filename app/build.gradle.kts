@@ -22,7 +22,7 @@ android {
     namespace = "com.topjohnwu.magisk"
 
     defaultConfig {
-        applicationId = "com.topjohnwu.magisk"
+        applicationId = "com.suu.topjohnwu.magisk"
         vectorDrawables.useSupportLibrary = true
         versionName = Config.version
         versionCode = Config.versionCode
@@ -81,9 +81,9 @@ dependencies {
     implementation("io.noties.markwon:core:4.6.2")
 
     val vLibsu = "6.0.0"
-    implementation("com.github.topjohnwu.libsu:core:${vLibsu}")
-    implementation("com.github.topjohnwu.libsu:service:${vLibsu}")
-    implementation("com.github.topjohnwu.libsu:nio:${vLibsu}")
+    implementation("com.github.VivoMask.libsu:core:${vLibsu}")
+    implementation("com.github.VivoMask.libsu:service:${vLibsu}")
+    implementation("com.github.VivoMask.libsu:nio:${vLibsu}")
 
     val vRetrofit = "2.11.0"
     implementation("com.squareup.retrofit2:retrofit:${vRetrofit}")
