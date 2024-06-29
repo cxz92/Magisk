@@ -1,6 +1,6 @@
 #pragma once
 
-#define JAVA_PACKAGE_NAME "com.topjohnwu.magisk"
+#define JAVA_PACKAGE_NAME "com.suu.topjohnwu.magisk"
 #define ZYGISKLDR       "libzygisk.so"
 #define NBPROP          "ro.dalvik.vm.native.bridge"
 #define SECURE_DIR      "/data/adb"
@@ -26,7 +26,7 @@
 #define MAIN_SOCKET   DEVICEDIR "/socket"
 #define LOG_PIPE      DEVICEDIR "/log"
 
-constexpr const char *applet_names[] = { "su", "resetprop", nullptr };
+constexpr const char *applet_names[] = { "suu", "resetprop", nullptr };
 
 #define POST_FS_DATA_WAIT_TIME       40
 #define POST_FS_DATA_SCRIPT_MAX_TIME 35
